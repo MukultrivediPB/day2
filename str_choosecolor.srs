@@ -1,0 +1,13 @@
+$PBExportHeader$str_choosecolor.srs
+global type str_choosecolor from structure
+	long		lstructsize
+	unsignedlong		hwndowner
+	unsignedlong		hinstance
+	long		rgbresult
+	unsignedlong		lpcustcolors
+	long		flags
+	long		lcustdata
+	long		lpfnhook
+	long		lptemplatename
+end type
+

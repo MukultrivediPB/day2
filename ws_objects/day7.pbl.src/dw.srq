@@ -1,0 +1,14 @@
+﻿$PBExportHeader$dw.srq
+  SELECT department.dept_id,   
+         department.dept_name,   
+         employee.emp_id,   
+         employee.manager_id,   
+         employee.emp_fname,   
+         employee.emp_lname,   
+         employee.phone,   
+         employee.salary,   
+         employee.gender  
+    FROM employee,   
+         department  
+   WHERE ( employee.dept_id = department.dept_id )    
+

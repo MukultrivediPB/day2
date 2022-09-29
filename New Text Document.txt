@@ -1,0 +1,137 @@
+FileReadEx 
+Prev  PowerScript Functions  Next 
+
+--------------------------------------------------------------------------------
+
+FileReadExPowerScript function
+Description
+
+Reads data from the file associated with the specified file number, which was assigned to the file with the FileOpen function.
+
+Syntax
+
+FileReadEx ( file#, blob {, length } )
+FileReadEx ( file#, string )
+FileReadEx 
+Prev  PowerScript Functions  Next 
+
+--------------------------------------------------------------------------------
+
+FileReadExPowerScript function
+Description
+
+Reads data from the file associated with the specified file number, which was assigned to the file with the FileOpen function.
+
+Syntax
+dsfdsf
+FileReadEx ( file#, blob {, length } )
+FileReadEx ( file#, string )
+this sis testing 
+dfsdfsFileReadEx 
+Prev  PowerScript Functions  Next 
+
+--------------------------------------------------------------------------------
+
+FileReadExPowerScript function
+Description
+
+Reads data from the file associated with the specified file number, which was assigned to the file with the FileOpen function.
+
+Syntax
+
+FileReadEx ( file#, blob {, length } )
+FileReadEx ( file#, string )
+FileReadEx 
+Prev  PowerScript Functions  Next 
+
+--------------------------------------------------------------------------------
+
+FileReadExPowerScript function
+Description
+
+Reads data from the file associated with the specified file number, which was assigned to the file with the FileOpen function.
+
+Syntax
+dsfdsf
+FileReadEx ( file#, blob {, length } )
+FileReadEx ( file#, string )
+this sis testing 
+dfsdfs
+
+sd
+sadsa
+
+
+sad
+sad
+sad
+sad
+sad
+sadas
+-------------------------------
+
+FileReadExPowerScript function
+Description
+
+Reads data from the file associated with the specified file number, which was assigned to the file with the FileOpen function.
+
+Syntax
+
+FileReadEx ( file#, blob {, length } )
+FileReadEx ( file#, string )
+FileReadEx 
+Prev  PowerScript Functions  Next 
+
+--------------------------------------------------------------------------------
+
+FileReadExPowerScript function
+Description
+
+Reads data from the file associated with the specified file number, which was assigned to the file with the FileOpen function.
+
+Syntax
+dsfdsf
+FileReadEx ( file#, blob {, length } )
+FileReadEx ( file#, string )
+this sis testing 
+dfsdfsFileReadEx 
+Prev  PowerScript Functions  Next 
+
+--------------------------------------------------------------------------------
+
+FileReadExPowerScript function
+Description
+
+Reads data from the file associated with the specified file number, which was assigned to the file with the FileOpen function.
+
+Syntax
+
+FileReadEx ( file#, blob {, length } )
+FileReadEx ( file#, string )
+FileReadEx 
+Prev  PowerScript Functions  Next 
+
+--------------------------------------------------------------------------------
+
+FileReadExPowerScript function
+Description
+
+Reads data from the file associated with the specified file number, which was assigned to the file with the FileOpen function.
+
+Syntax
+dsfdsf
+FileReadEx ( file#, blob {, length } )
+FileReadEx ( file#, string )
+this sis testing 
+dfsdfs
+
+sd
+sadsa
+
+
+sad
+sad
+sad
+sad
+sad
+sadas

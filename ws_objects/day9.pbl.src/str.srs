@@ -1,0 +1,5 @@
+﻿$PBExportHeader$str.srs
+global type str from structure
+	string		empid
+end type
+

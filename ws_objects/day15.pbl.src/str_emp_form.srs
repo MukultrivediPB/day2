@@ -1,0 +1,14 @@
+﻿$PBExportHeader$str_emp_form.srs
+global type str_emp_form from structure
+	long		empid
+	string		emp_fname
+	string		emp_lname
+	string		city
+	string		state
+	string		phone
+	string		gender
+	date		dob
+	long		dept_id
+	string		dept_name
+end type
+

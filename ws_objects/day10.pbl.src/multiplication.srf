@@ -1,0 +1,11 @@
+﻿$PBExportHeader$multiplication.srf
+global type Multiplication from function_object
+end type
+
+forward prototypes
+global function integer multiplication (integer a, integer b)
+end prototypes
+
+global function integer multiplication (integer a, integer b);return a*b
+end function
+

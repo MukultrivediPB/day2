@@ -1,0 +1,2 @@
+﻿$PBExportHeader$query_emp_dept.srq
+PBSELECT( VERSION(400) TABLE(NAME="department" )  TABLE(NAME="employee" ) COLUMN(NAME="department.dept_id") COLUMN(NAME="department.dept_name") COLUMN(NAME="employee.emp_id") COLUMN(NAME="employee.emp_fname") COLUMN(NAME="employee.emp_lname") COLUMN(NAME="employee.dept_id") COLUMN(NAME="employee.street") COLUMN(NAME="employee.city") COLUMN(NAME="employee.state") COLUMN(NAME="employee.zip_code")    JOIN (LEFT="employee.dept_id"    OP ="="RIGHT="department.dept_id" )) 

@@ -1,0 +1,11 @@
+﻿$PBExportHeader$myfunction.srf
+global type myfunction from function_object
+end type
+
+forward prototypes
+global subroutine myfunction ()
+end prototypes
+
+global subroutine myfunction ();messagebox('','')
+end subroutine
+

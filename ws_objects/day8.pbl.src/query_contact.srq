@@ -1,0 +1,2 @@
+﻿$PBExportHeader$query_contact.srq
+PBSELECT( VERSION(400) TABLE(NAME="contact" ) COLUMN(NAME="contact.id") COLUMN(NAME="contact.last_name") COLUMN(NAME="contact.first_name") COLUMN(NAME="contact.title") COLUMN(NAME="contact.street") COLUMN(NAME="contact.city") COLUMN(NAME="contact.state") COLUMN(NAME="contact.zip") COLUMN(NAME="contact.phone") COLUMN(NAME="contact.fax")) 
