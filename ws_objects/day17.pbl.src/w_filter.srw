@@ -2,6 +2,8 @@
 forward
 global type w_filter from window
 end type
+type cb_4 from commandbutton within w_filter
+end type
 type cb_3 from commandbutton within w_filter
 end type
 type cb_2 from commandbutton within w_filter
@@ -28,6 +30,7 @@ boolean resizable = true
 long backcolor = 67108864
 string icon = "AppIcon!"
 boolean center = true
+cb_4 cb_4
 cb_3 cb_3
 cb_2 cb_2
 cb_1 cb_1
@@ -38,13 +41,15 @@ end type
 global w_filter w_filter
 
 on w_filter.create
+this.cb_4=create cb_4
 this.cb_3=create cb_3
 this.cb_2=create cb_2
 this.cb_1=create cb_1
 this.dw_3=create dw_3
 this.dw_2=create dw_2
 this.dw_1=create dw_1
-this.Control[]={this.cb_3,&
+this.Control[]={this.cb_4,&
+this.cb_3,&
 this.cb_2,&
 this.cb_1,&
 this.dw_3,&
@@ -53,6 +58,7 @@ this.dw_1}
 end on
 
 on w_filter.destroy
+destroy(this.cb_4)
 destroy(this.cb_3)
 destroy(this.cb_2)
 destroy(this.cb_1)
@@ -64,6 +70,21 @@ end on
 event open;dw_1.settransobject(sqlca);
 dw_1.retrieve()
 end event
+
+type cb_4 from commandbutton within w_filter
+integer x = 2656
+integer y = 1456
+integer width = 402
+integer height = 112
+integer taborder = 50
+integer textsize = -10
+integer weight = 400
+fontcharset fontcharset = ansi!
+fontpitch fontpitch = variable!
+fontfamily fontfamily = swiss!
+string facename = "Tahoma"
+string text = "none"
+end type
 
 type cb_3 from commandbutton within w_filter
 integer x = 1646
