@@ -1,7 +1,7 @@
-﻿$PBExportHeader$day16.sra
+﻿$PBExportHeader$day17.sra
 $PBExportComments$Generated Application Object
 forward
-global type day16 from application
+global type day17 from application
 end type
 global transaction sqlca
 global dynamicdescriptionarea sqlda
@@ -10,8 +10,8 @@ global error error
 global message message
 end forward
 
-global type day16 from application
-string appname = "day16"
+global type day17 from application
+string appname = "day17"
 string themepath = "C:\Program Files (x86)\Appeon\PowerBuilder 22.0\IDE\theme"
 string themename = "Do Not Use Themes"
 boolean nativepdfvalid = false
@@ -26,10 +26,10 @@ string appruntimeversion = "22.0.0.1716"
 boolean manualsession = false
 boolean unsupportedapierror = false
 end type
-global day16 day16
+global day17 day17
 
-on day16.create
-appname="day16"
+on day17.create
+appname="day17"
 message=create message
 sqlca=create transaction
 sqlda=create dynamicdescriptionarea
@@ -37,7 +37,7 @@ sqlsa=create dynamicstagingarea
 error=create error
 end on
 
-on day16.destroy
+on day17.destroy
 destroy(sqlca)
 destroy(sqlda)
 destroy(sqlsa)
@@ -55,7 +55,7 @@ SQLCA.DBParm = "Namespace='System.Data.SqlClient',DataSource='POWERBUILDER',Data
 
 connect using sqlca;
 //open(w_othercontrols)
-//open(w_email)
+open(w_filter)
 //open(w_richtext)
 end event
 
