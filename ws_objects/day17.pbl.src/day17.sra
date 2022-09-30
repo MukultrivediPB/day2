@@ -55,7 +55,7 @@ SQLCA.DBParm = "Namespace='System.Data.SqlClient',DataSource='POWERBUILDER',Data
 
 connect using sqlca;
 //open(w_othercontrols)
-open(w_file)
+open(w_test)
 //open(w_richtext)
 end event
 
