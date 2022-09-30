@@ -69,6 +69,8 @@ end on
 
 event open;dw_1.settransobject(sqlca);
 dw_1.retrieve()
+
+//test
 end event
 
 type cb_4 from commandbutton within w_filter
